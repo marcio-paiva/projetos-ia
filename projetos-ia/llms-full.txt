@@ -1,0 +1,137 @@
+# Projetos de IA — Márcio José Domingues Paiva
+
+Fonte: https://marcio-paiva.github.io/projetos-ia/ · Atualizado em 17/11/2026 · Idioma: português do Brasil
+
+## Resumo
+
+Márcio José Domingues Paiva é formando em Sistemas de Informação na Universidade Federal de Ouro Preto (previsão dez/2026) e Técnico de Dados no Sesi, na equipe de Meio Ambiente do Corredor Sudeste da Vale (João Monlevade, MG). Trabalha diretamente com Copilot Studio e demais ferramentas Microsoft, criando agentes e soluções integradas com IA para as demandas diárias da equipe. Perfil de atuação: AI Builder, usando IA para criar agentes, automações e produtos de negócio de ponta a ponta.
+
+Critério dos números: só aparecem valores sustentáveis. Onde não houve medição, está indicado como estimativa mínima, escopo ou "ainda não medido".
+
+Números em destaque:
+- Automação de áreas degradadas: no mínimo 1 hora por semana de trabalho manual de uma engenheira ambiental eliminadas (estimativa mínima, sem medição formal).
+- Agente de inspeções ambientais: escopo de 7 áreas da gerência de Meio Ambiente do Corredor Sudeste (em desenvolvimento).
+- Konecta: 5 entregáveis, equipe de 4 pessoas sob liderança de Márcio.
+- TCC de criptoativos: Claude Code usado em todo o desenvolvimento do projeto.
+
+## 1. Automação da gestão de informações de recuperação de áreas degradadas
+
+Contexto: trabalho (Sesi/Vale, Meio Ambiente). Tipo: agente de IA + automação. Status: implementado.
+
+Problema: a equipe operacional reportava diariamente, por mensagens de WhatsApp, a atividade executada, o local e a metragem. Os relatos não seguiam padrão e as informações ficavam dispersas. Consolidar tudo era trabalho manual de uma engenheira ambiental, sujeito a erros.
+
+Solução:
+1. Criação e configuração de um agente de IA que lê os relatos e extrai atividade, local e metragem.
+2. O agente grava os dados estruturados em uma base de dados no SharePoint.
+3. Fluxos do Power Automate copiam esses dados para as outras bases que precisam deles.
+
+Ferramentas e uso:
+- Copilot Studio: criação e configuração do agente que interpreta os relatos.
+- SharePoint: base de dados central com registros padronizados.
+- Power Automate: fluxos que distribuem os dados às demais bases, sem digitação manual.
+
+Resultados: no mínimo 1 hora por semana de trabalho manual eliminadas (estimativa mínima, sem medição formal). Dados dispersos passaram a ser estruturados e a alimentar as demais bases automaticamente, reduzindo o risco de erro de digitação.
+
+## 2. Agente de IA para inspeções ambientais em campo
+
+Contexto: trabalho (Sesi/Vale, Meio Ambiente). Tipo: agente de IA + geração de apresentação. Status: em desenvolvimento (MVP).
+
+Problema: técnicos iam a campo e tiravam fotos, mas só registravam a inspeção no sistema ao voltar para a sala, dependendo da memória. O registro tem vários campos e dá muito trabalho. A qualidade dos registros era baixa. A apresentação em PPTX para dar visibilidade ao cenário era montada à mão.
+
+Solução:
+1. Um agente do Copilot guia o técnico em campo, perguntando até ter todas as informações para uma inspeção de qualidade.
+2. O agente devolve os campos estruturados, prontos para o registro no sistema.
+3. Um fluxo do Power Automate edita os arquivos XML de um modelo PPTX, recompacta e devolve uma apresentação padronizada e editável para o técnico apresentar ao superior.
+
+Ferramentas e uso:
+- Copilot Studio: agente conversacional que conduz a inspeção e valida a qualidade das respostas.
+- Power Automate: fluxo acionado como ferramenta do agente; edita o XML do PPTX (Open XML), recompacta e devolve o arquivo.
+- PPTX padronizado: modelo único que dá visibilidade ao cenário da inspeção.
+
+Escopo e resultados: escopo de 7 áreas da gerência de Meio Ambiente do Corredor Sudeste (complexo de Mariana, Minas Centrais, Itabira, EFVM, porto, biodiversidade e minas paralisadas). Projeto em fase de MVP, validando a cadeia agente → fluxo → PPTX a partir de um único campo. Ainda não há resultados medidos; o ganho esperado é registro com mais qualidade, feito no campo, e apresentação padronizada sem montagem manual.
+
+## 3. Sistema de criptoativos e declaração DeCripto (TCC)
+
+Contexto: acadêmico (TCC, UFOP). Tipo: sistema de dados com IA. Status: monografia em fase final (nov/2026).
+
+Problema: a IN RFB 2.291/2025 define a declaração DeCripto, que exige consolidar históricos de operações com criptoativos feitas em exchanges e organizá-los no formato da declaração.
+
+Solução: sistema que consulta dados nas exchanges via API (biblioteca CCXT, incluindo Binance) e monta a declaração no formato DeCripto. Desenvolvido em dupla:
+- Parte de Márcio, Data Engine (back-end): ingestão e normalização dos históricos de exchanges via CCXT, base para o restante do sistema.
+- Parte do colega de curso: aplicação web, front-end, cálculos tributários, geração do arquivo DeCripto e validação dos relatórios.
+
+Ferramentas e uso:
+- Claude Code: usado em todo o desenvolvimento do projeto, rodando dentro da pasta do projeto.
+- CCXT: biblioteca para consultar dados de várias exchanges por uma API única.
+- LaTeX (modelo DECSI-COSI): escrita da monografia, com a IN RFB 2.291/2025 como fonte principal.
+
+Resultados: back-end de ingestão e normalização como base do sistema; versão inicial da monografia praticamente pronta (nov/2026). O trabalho segue a regra de usar estritamente as fontes da proposta do TCC.
+
+## 4. Konecta — startup de sistemas sob medida
+
+Contexto: empreendedorismo (disciplina na UFOP). Papel: líder de uma equipe de 4 pessoas.
+
+Problema: transformar uma ideia de startup em um conjunto completo de materiais e uma demonstração funcional, com equipe de 4 pessoas e prazo de disciplina.
+
+Solução: Konecta propõe "Sistemas sob medida, a um toque de distância". O centro do pitch é uma demo ao vivo com tag NFC. Exemplo (cadeia de suprimentos): a tag ao lado do produto aciona um sistema que calcula a quantidade necessária de compra, envia o pedido por WhatsApp ao líder para aprovação e, após a aprovação, envia mensagem ao fornecedor pedindo orçamento.
+
+Entregáveis (5):
+1. Identidade visual completa (azul-marinho, índigo e coral).
+2. Landing page responsiva (HTML, CSS e JavaScript, publicada no GitHub Pages).
+3. Roteiro do vídeo de pitch, produzido com IA.
+4. Plano de negócios em Word.
+5. Guia de conversa com clientes.
+
+Uso de IA: IA generativa apoiou a criação da marca, da landing page, dos textos e do roteiro. Exploração de automação low-code: envios de formulário (Inlead) conectados ao WhatsApp por webhooks do Make.com.
+
+Resultados: 5 entregáveis por uma equipe de 4 pessoas, com demo funcional de NFC no pitch.
+
+## Uso diário de IA, por aplicação
+
+LLMs usados: Claude, ChatGPT, Gemini e Microsoft Copilot.
+
+Trabalho: dados e BI
+- Construção e depuração de consultas Power Query (M) e medidas DAX no Power BI.
+- Substituição de dashboards operacionais diários em Excel por relatórios Power BI.
+- Otimização de carga de modelos semânticos que estouram o tempo limite de atualização.
+- Análises com Python no Google Colab, quando o computador do trabalho não permite instalar programas.
+
+Trabalho: automação e aplicativos
+- Fluxos no Power Automate com laços, filtragem de matrizes e deduplicação (por exemplo, e-mails de lembrete consolidados por pessoa e por prazo).
+- Aplicativos no Power Apps sobre SharePoint, simplificando lógica para evitar fluxos desnecessários.
+- Office Scripts para pós-processar dados exportados no Excel Online.
+
+Estudo e TCC
+- Claude Code no desenvolvimento do sistema de criptoativos.
+- Escrita da monografia em LaTeX com apoio de IA e restrição às fontes da proposta.
+
+Carreira
+- Adaptação de currículo e páginas de portfólio para vagas específicas, com pesquisa dos requisitos e revisão do que é coerente com a experiência real.
+
+Empreendedorismo
+- Marca, landing page, textos, roteiro de pitch e plano de negócios da Konecta.
+
+Como trabalho com IA
+- Diagnóstico antes da correção: leio a mensagem de erro e entendo a causa antes de aceitar uma solução.
+- Decisão explícita: discuto alternativas e escolho antes de implementar.
+- Fontes controladas: restrinjo o modelo às fontes que informo quando o trabalho exige rigor.
+- MVP primeiro: valido ferramentas e licenciamento com um protótipo mínimo antes de ampliar.
+
+## Ferramentas e onde foram usadas
+
+- Copilot Studio (agentes de IA): projetos 1 e 2.
+- Claude e Claude Code (LLM e desenvolvimento assistido por IA): projeto 3 e uso diário.
+- ChatGPT, Gemini, Microsoft Copilot (LLMs): uso diário.
+- Power Automate (automação/RPA): projetos 1 e 2 e rotinas de trabalho.
+- Power Apps e SharePoint (aplicativos e base de dados): projeto 1 e sistemas de trabalho.
+- Power BI com Power Query e DAX (dados e visualização): relatórios de trabalho.
+- Office Scripts (automação no Excel Online): pós-processamento de dados.
+- CCXT (API de exchanges): projeto 3.
+- Google Colab (análise com Python): trabalho.
+- LaTeX (escrita acadêmica): monografia do projeto 3.
+- HTML, CSS, JS e GitHub Pages (web): landing page da Konecta.
+- Make.com (automação low-code): exploração no projeto 4.
+
+## Contato
+
+LinkedIn: https://linkedin.com/in/marciopaiva2004

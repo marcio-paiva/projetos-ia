@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projetos de IA — Márcio Paiva</title>
+<meta name="description" content="Portfólio de projetos de IA de Márcio Paiva: agentes no Copilot Studio, automações com Power Automate, sistema de criptoativos (TCC) com Claude Code e a startup Konecta. Com problema, solução, ferramentas e resultados.">
+<meta name="author" content="Márcio José Domingues Paiva">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://marcio-paiva.github.io/projetos-ia/">
+<link rel="alternate" type="text/plain" href="https://marcio-paiva.github.io/projetos-ia/llms.txt" title="llms.txt — resumo para modelos de linguagem">
+<link rel="alternate" type="text/plain" href="https://marcio-paiva.github.io/projetos-ia/llms-full.txt" title="llms-full.txt — conteúdo completo em texto">
+
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Projetos de IA — Márcio Paiva">
+<meta property="og:description" content="Agentes, automações e sistemas construídos com IA: problema, solução, ferramentas e resultados.">
+<meta property="og:url" content="https://marcio-paiva.github.io/projetos-ia/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Projetos de IA — Márcio Paiva">
+<meta name="twitter:description" content="Agentes, automações e sistemas construídos com IA: problema, solução, ferramentas e resultados.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#page",
+      "url": "https://marcio-paiva.github.io/projetos-ia/",
+      "name": "Projetos de IA — Márcio Paiva",
+      "inLanguage": "pt-BR",
+      "dateModified": "2026-11-17",
+      "description": "Portfólio de projetos de IA: agentes no Copilot Studio, automações com Power Automate, sistema de criptoativos (TCC) com Claude Code e a startup Konecta.",
+      "mainEntity": { "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio" },
+      "hasPart": [
+        { "@id": "https://marcio-paiva.github.io/projetos-ia/#areas-degradadas" },
+        { "@id": "https://marcio-paiva.github.io/projetos-ia/#agente-inspecoes" },
+        { "@id": "https://marcio-paiva.github.io/projetos-ia/#decripto-tcc" },
+        { "@id": "https://marcio-paiva.github.io/projetos-ia/#konecta" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio",
+      "name": "Márcio José Domingues Paiva",
+      "jobTitle": "Técnico de Dados",
+      "worksFor": { "@type": "Organization", "name": "Sesi" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidade Federal de Ouro Preto" },
+      "address": { "@type": "PostalAddress", "addressLocality": "João Monlevade", "addressRegion": "MG", "addressCountry": "BR" },
+      "sameAs": ["https://linkedin.com/in/marciopaiva2004"],
+      "knowsAbout": ["Inteligência artificial", "Agentes de IA", "Copilot Studio", "Power Automate", "Power Apps", "Power BI", "SharePoint", "Engenharia de prompts", "Automação de processos (RPA)", "Claude Code"]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#areas-degradadas",
+      "url": "https://marcio-paiva.github.io/projetos-ia/#areas-degradadas",
+      "name": "Automação da gestão de informações de recuperação de áreas degradadas",
+      "creator": { "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio" },
+      "inLanguage": "pt-BR",
+      "description": "Agente de IA que lê relatos diários da equipe operacional (atividade, local e metragem), grava os dados em uma base no SharePoint e aciona fluxos do Power Automate que alimentam outras bases. Eliminou, no mínimo, 1 hora por semana de trabalho manual de uma engenheira ambiental.",
+      "keywords": "agente de IA, Copilot Studio, SharePoint, Power Automate, automação, meio ambiente"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#agente-inspecoes",
+      "url": "https://marcio-paiva.github.io/projetos-ia/#agente-inspecoes",
+      "name": "Agente de IA para inspeções ambientais em campo",
+      "creator": { "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio" },
+      "inLanguage": "pt-BR",
+      "description": "Agente do Copilot que guia técnicos de campo na inspeção, devolve os campos estruturados para registro no sistema e gera uma apresentação PPTX padronizada. Em desenvolvimento (MVP); escopo de 7 áreas da gerência de Meio Ambiente do Corredor Sudeste.",
+      "keywords": "agente de IA, Copilot Studio, Power Automate, PPTX, inspeção ambiental"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#decripto-tcc",
+      "url": "https://marcio-paiva.github.io/projetos-ia/#decripto-tcc",
+      "name": "Sistema de criptoativos e declaração DeCripto (TCC)",
+      "creator": { "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio" },
+      "inLanguage": "pt-BR",
+      "description": "Sistema que consulta dados em exchanges via API (CCXT) e monta a declaração DeCripto (IN RFB 2.291/2025). Trabalho de conclusão de curso em dupla; Claude Code foi usado em todo o desenvolvimento.",
+      "keywords": "Claude Code, CCXT, criptoativos, DeCripto, IN RFB 2.291, TCC"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://marcio-paiva.github.io/projetos-ia/#konecta",
+      "url": "https://marcio-paiva.github.io/projetos-ia/#konecta",
+      "name": "Konecta — startup de sistemas sob medida",
+      "creator": { "@id": "https://marcio-paiva.github.io/projetos-ia/#marcio" },
+      "inLanguage": "pt-BR",
+      "description": "Conceito de startup desenvolvido com três colegas na disciplina de Empreendedorismo da UFOP, com liderança de Márcio: identidade visual, landing page, roteiro de vídeo de pitch, plano de negócios, guia de conversa com clientes e demo ao vivo com NFC.",
+      "keywords": "startup, NFC, landing page, identidade visual, plano de negócios, IA generativa"
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#ffffff; --surface:#f4f7fb; --text:#16202a; --muted:#52606d;
+  --accent:#1f4e79; --accent-2:#2e75b6; --border:#d5dde6; --tag-bg:#e4edf6; --tag-text:#1f4e79;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#10161d; --surface:#18212b; --text:#e6edf3; --muted:#9aa7b4;
+    --accent:#7db4e6; --accent-2:#7db4e6; --border:#2b3744; --tag-bg:#1f2d3b; --tag-text:#a9cdf0;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10161d; --surface:#18212b; --text:#e6edf3; --muted:#9aa7b4;
+  --accent:#7db4e6; --accent-2:#7db4e6; --border:#2b3744; --tag-bg:#1f2d3b; --tag-text:#a9cdf0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+a{color:var(--accent-2)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent-2);outline-offset:2px}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:16px;top:8px;background:var(--surface);padding:8px 12px;z-index:9}
+header.site{padding:40px 0 8px;border-bottom:1px solid var(--border)}
+h1{font-size:clamp(1.6rem,4vw,2.1rem);line-height:1.2;margin:0 0 6px;color:var(--accent)}
+.sub{margin:0 0 12px;color:var(--muted)}
+.meta-line{font-size:.9rem;color:var(--muted);margin:0 0 16px}
+h2{font-size:1.4rem;line-height:1.3;margin:0 0 8px;color:var(--accent);scroll-margin-top:16px}
+h3{font-size:1.05rem;margin:20px 0 6px}
+section,article{padding:28px 0;border-bottom:1px solid var(--border)}
+section>h2+p,article>h2+p{margin-top:0}
+nav.toc ol{margin:8px 0 0;padding-left:1.2em}
+nav.toc li{margin:2px 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px;padding:0;list-style:none}
+.tags li{background:var(--tag-bg);color:var(--tag-text);border-radius:999px;padding:2px 10px;font-size:.82rem}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:14px 0 0}
+.metric{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+.metric dt{font-size:.85rem;color:var(--muted);order:2}
+.metric dd{margin:0;font-size:1.6rem;font-weight:700;color:var(--accent);line-height:1.2}
+.metric{display:flex;flex-direction:column}
+.metric dd small{display:block;font-size:.85rem;font-weight:400;color:var(--muted);margin-top:4px;line-height:1.4}
+.note{font-size:.9rem;color:var(--muted)}
+ul,ol{padding-left:1.3em}
+li{margin:4px 0}
+.result{background:var(--surface);border-left:4px solid var(--accent-2);padding:10px 14px;border-radius:0 8px 8px 0;margin:8px 0}
+.result p{margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:.95rem;margin-top:8px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-weight:600;font-size:.85rem}
+tbody th{color:var(--text);font-size:.95rem}
+.table-scroll{overflow-x:auto}
+footer{padding:28px 0 56px;color:var(--muted);font-size:.9rem}
+@media print{.skip,nav.toc{display:none}a{color:inherit}}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Projetos de IA — Márcio José Domingues Paiva</h1>
+    <p class="sub">Agentes, automações e sistemas construídos com IA. Para cada projeto: problema, solução, ferramentas, como foram usadas e resultados.</p>
+    <p class="meta-line">Atualizado em <time datetime="2026-11-17">17/11/2026</time> · <a href="https://linkedin.com/in/marciopaiva2004" rel="me noopener">LinkedIn</a> · <a href="llms.txt">llms.txt</a> · <a href="llms-full.txt">versão em texto puro</a></p>
+  </div>
+</header>
+
+<main id="conteudo" class="wrap">
+
+<section id="resumo" aria-labelledby="h-resumo">
+  <h2 id="h-resumo">Resumo</h2>
+  <p><strong>Quem sou:</strong> Márcio José Domingues Paiva, formando em Sistemas de Informação na UFOP (previsão dez/2026) e Técnico de Dados no Sesi, na equipe de Meio Ambiente do Corredor Sudeste da Vale (João Monlevade, MG). Trabalho diretamente com Copilot Studio e demais ferramentas Microsoft, criando agentes e soluções integradas com IA para as demandas diárias da equipe.</p>
+  <p><strong>O que esta página mostra:</strong> 4 projetos com IA (2 profissionais, 1 acadêmico, 1 de empreendedorismo) e o uso diário de IA em trabalho, estudo e carreira.</p>
+  <p><strong>Perfil de atuação:</strong> AI Builder — usar IA para criar agentes, automações e produtos de negócio de ponta a ponta.</p>
+
+  <h3>Números em destaque</h3>
+  <dl class="metrics">
+    <div class="metric"><dt>Automação de áreas degradadas</dt><dd>≥ 1 h/semana<small>de trabalho manual de uma engenheira ambiental eliminadas (estimativa mínima, sem medição formal)</small></dd></div>
+    <div class="metric"><dt>Agente de inspeções ambientais</dt><dd>7 áreas<small>da gerência de Meio Ambiente do Corredor Sudeste no escopo do agente (em desenvolvimento)</small></dd></div>
+    <div class="metric"><dt>Konecta (startup)</dt><dd>5 entregáveis<small>com equipe de 4 pessoas, sob minha liderança</small></dd></div>
+    <div class="metric"><dt>TCC (criptoativos)</dt><dd>Claude Code<small>usado em todo o desenvolvimento do projeto</small></dd></div>
+  </dl>
+  <p class="note">Critério dos números: só aparecem valores que posso sustentar. Onde não houve medição, está indicado como estimativa mínima, escopo ou "ainda não medido".</p>
+</section>
+
+<nav class="toc" aria-label="Índice" style="padding:20px 0;border-bottom:1px solid var(--border)">
+  <strong>Índice</strong>
+  <ol>
+    <li><a href="#areas-degradadas">Automação da gestão de informações de recuperação de áreas degradadas</a></li>
+    <li><a href="#agente-inspecoes">Agente de IA para inspeções ambientais em campo</a></li>
+    <li><a href="#decripto-tcc">Sistema de criptoativos e declaração DeCripto (TCC)</a></li>
+    <li><a href="#konecta">Konecta — startup de sistemas sob medida</a></li>
+    <li><a href="#uso-diario">Uso diário de IA, por aplicação</a></li>
+    <li><a href="#ferramentas">Ferramentas e onde foram usadas</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ol>
+</nav>
+
+<!-- ============ PROJETO 1 ============ -->
+<article id="areas-degradadas" aria-labelledby="h-areas">
+  <h2 id="h-areas">1. Automação da gestão de informações de recuperação de áreas degradadas</h2>
+  <ul class="tags" aria-label="Classificação">
+    <li>Contexto: trabalho (Sesi/Vale, Meio Ambiente)</li><li>Tipo: agente de IA + automação</li><li>Status: implementado</li>
+  </ul>
+
+  <h3>Problema</h3>
+  <p>A equipe operacional reportava diariamente, por mensagens de WhatsApp, a atividade executada, o local e a metragem. Os relatos não seguiam padrão e as informações ficavam dispersas. Consolidar tudo era um trabalho manual de uma engenheira ambiental, sujeito a erros.</p>
+
+  <h3>Solução</h3>
+  <ol>
+    <li>Criei e configurei um agente de IA que lê os relatos e extrai atividade, local e metragem.</li>
+    <li>O agente grava os dados estruturados em uma base de dados no SharePoint.</li>
+    <li>Fluxos do Power Automate copiam esses dados para as outras bases que precisam deles.</li>
+  </ol>
+
+  <h3>Ferramentas e como foram usadas</h3>
+  <ul>
+    <li><strong>Copilot Studio</strong> — criação e configuração do agente que interpreta os relatos.</li>
+    <li><strong>SharePoint</strong> — base de dados central com os registros padronizados.</li>
+    <li><strong>Power Automate</strong> — fluxos que distribuem os dados às demais bases, sem digitação manual.</li>
+  </ul>
+
+  <h3>Resultados</h3>
+  <div class="result">
+    <p><strong>≥ 1 hora por semana</strong> de trabalho manual de uma engenheira ambiental eliminadas (estimativa mínima, sem medição formal).</p>
+    <p>Dados dispersos e sem padrão passaram a ser registrados de forma estruturada e a alimentar as demais bases automaticamente, o que reduz o risco de erro de digitação.</p>
+  </div>
+</article>
+
+<!-- ============ PROJETO 2 ============ -->
+<article id="agente-inspecoes" aria-labelledby="h-insp">
+  <h2 id="h-insp">2. Agente de IA para inspeções ambientais em campo</h2>
+  <ul class="tags" aria-label="Classificação">
+    <li>Contexto: trabalho (Sesi/Vale, Meio Ambiente)</li><li>Tipo: agente de IA + geração de apresentação</li><li>Status: em desenvolvimento (MVP)</li>
+  </ul>
+
+  <h3>Problema</h3>
+  <p>Os técnicos iam a campo e tiravam fotos, mas só registravam a inspeção no sistema ao voltar para a sala, dependendo da memória sobre o que viram na área. O registro tem vários campos e dá muito trabalho. A qualidade dos registros era baixa, porque nem todo técnico tem facilidade para elaborar registros completos. A apresentação em PPTX para dar visibilidade ao cenário também era montada à mão.</p>
+
+  <h3>Solução</h3>
+  <ol>
+    <li>Um agente do Copilot guia o técnico <strong>em campo</strong>, perguntando até ter todas as informações necessárias para uma inspeção de qualidade.</li>
+    <li>O agente devolve os campos <strong>estruturados</strong>, prontos para o registro no sistema.</li>
+    <li>Um fluxo do Power Automate edita os arquivos XML de um modelo PPTX, recompacta e devolve uma <strong>apresentação padronizada e editável</strong>, para o técnico apresentar ao superior.</li>
+  </ol>
+
+  <h3>Ferramentas e como foram usadas</h3>
+  <ul>
+    <li><strong>Copilot Studio</strong> — agente conversacional que conduz a inspeção e valida a qualidade das respostas.</li>
+    <li><strong>Power Automate</strong> — fluxo acionado como ferramenta do agente; edita o XML do PPTX (Open XML), recompacta e devolve o arquivo.</li>
+    <li><strong>PPTX padronizado</strong> — modelo único que dá visibilidade ao cenário da inspeção.</li>
+  </ul>
+
+  <h3>Escopo e resultados</h3>
+  <div class="result">
+    <p><strong>Escopo: 7 áreas</strong> da gerência de Meio Ambiente do Corredor Sudeste: complexo de Mariana, Minas Centrais, Itabira, EFVM, porto, biodiversidade e minas paralisadas.</p>
+    <p><strong>Status honesto:</strong> projeto em fase de MVP, que valida a cadeia agente → fluxo → PPTX começando por um único campo. Ainda não há resultados medidos; o ganho esperado é registro com mais qualidade, feito no próprio campo, e apresentação padronizada sem montagem manual.</p>
+  </div>
+</article>
+
+<!-- ============ PROJETO 3 ============ -->
+<article id="decripto-tcc" aria-labelledby="h-cripto">
+  <h2 id="h-cripto">3. Sistema de criptoativos e declaração DeCripto (TCC)</h2>
+  <ul class="tags" aria-label="Classificação">
+    <li>Contexto: acadêmico (TCC, UFOP)</li><li>Tipo: sistema de dados com IA</li><li>Status: monografia em fase final (nov/2026)</li>
+  </ul>
+
+  <h3>Problema</h3>
+  <p>A IN RFB 2.291/2025 define a declaração DeCripto, que exige consolidar históricos de operações com criptoativos feitas em exchanges e organizá-los no formato da declaração.</p>
+
+  <h3>Solução</h3>
+  <p>Sistema que consulta dados nas exchanges via API (biblioteca CCXT, incluindo Binance) e monta a declaração no formato DeCripto. Foi desenvolvido em dupla, com divisão clara de partes:</p>
+  <ul>
+    <li><strong>Minha parte — Data Engine (back-end):</strong> ingestão e normalização dos históricos de exchanges via CCXT, que serve de base para o restante do sistema e atende às exigências do colega.</li>
+    <li><strong>Parte do colega de curso:</strong> aplicação web, front-end, cálculos tributários, geração do arquivo DeCripto e validação dos relatórios.</li>
+  </ul>
+
+  <h3>Ferramentas e como foram usadas</h3>
+  <ul>
+    <li><strong>Claude Code</strong> — usado em <strong>todo o desenvolvimento</strong> do projeto, rodando dentro da pasta do projeto.</li>
+    <li><strong>CCXT</strong> — biblioteca para consultar dados de várias exchanges por uma API única.</li>
+    <li><strong>LaTeX (modelo DECSI-COSI)</strong> — escrita da monografia, com a IN RFB 2.291/2025 como fonte principal.</li>
+  </ul>
+
+  <h3>Resultados</h3>
+  <div class="result">
+    <p>Back-end de ingestão e normalização entregue como base do sistema, e versão inicial da monografia praticamente pronta (nov/2026).</p>
+    <p>Prática de IA aplicada: o trabalho segue a regra de usar <strong>estritamente as fontes da proposta do TCC</strong>, sem fontes adicionais.</p>
+  </div>
+</article>
+
+<!-- ============ PROJETO 4 ============ -->
+<article id="konecta" aria-labelledby="h-konecta">
+  <h2 id="h-konecta">4. Konecta — startup de sistemas sob medida</h2>
+  <ul class="tags" aria-label="Classificação">
+    <li>Contexto: empreendedorismo (disciplina na UFOP)</li><li>Tipo: marca, sistemas e materiais com IA generativa</li><li>Papel: líder de uma equipe de 4 pessoas</li>
+  </ul>
+
+  <h3>Problema</h3>
+  <p>Transformar uma ideia de startup em um conjunto completo de materiais e uma demonstração funcional, com uma equipe de 4 pessoas e prazo de disciplina.</p>
+
+  <h3>Solução</h3>
+  <p>Konecta propõe <em>"Sistemas sob medida, a um toque de distância"</em>. O centro do pitch é uma demo ao vivo com tag NFC. Exemplo de caso de uso (cadeia de suprimentos): a tag ao lado do produto aciona um sistema que calcula a quantidade necessária de compra, envia o pedido por WhatsApp ao líder para aprovação e, após a aprovação, envia mensagem ao fornecedor pedindo orçamento.</p>
+
+  <h3>Entregáveis (5) e uso de IA</h3>
+  <ul>
+    <li><strong>Identidade visual completa</strong> — paleta azul-marinho, índigo e coral.</li>
+    <li><strong>Landing page responsiva</strong> — HTML, CSS e JavaScript, publicada no GitHub Pages.</li>
+    <li><strong>Roteiro do vídeo de pitch</strong> — produzido com IA.</li>
+    <li><strong>Plano de negócios</strong> — documento Word.</li>
+    <li><strong>Guia de conversa com clientes</strong>.</li>
+  </ul>
+  <p>IA generativa apoiou a criação da marca, da landing page, dos textos e do roteiro. Também explorei automação low-code fora do ambiente de trabalho, conectando envios de formulário (Inlead) ao WhatsApp por webhooks do Make.com.</p>
+
+  <h3>Resultados</h3>
+  <div class="result">
+    <p><strong>5 entregáveis</strong> produzidos por uma equipe de <strong>4 pessoas</strong>, com demo funcional de NFC no pitch.</p>
+  </div>
+</article>
+
+<!-- ============ USO DIÁRIO ============ -->
+<section id="uso-diario" aria-labelledby="h-uso">
+  <h2 id="h-uso">Uso diário de IA, por aplicação</h2>
+  <p>Uso IA de forma intensa nos processos diários, profissionais, acadêmicos e pessoais, com LLMs como Claude, ChatGPT, Gemini e Microsoft Copilot.</p>
+
+  <h3>Trabalho: dados e BI</h3>
+  <ul>
+    <li>Construção e depuração de consultas Power Query (M) e medidas DAX no Power BI.</li>
+    <li>Substituição de dashboards operacionais diários em Excel por relatórios Power BI.</li>
+    <li>Otimização de carga de modelos semânticos que estouram o tempo limite de atualização.</li>
+    <li>Análises exploratórias com Python no Google Colab, quando o computador do trabalho não permite instalar programas.</li>
+  </ul>
+
+  <h3>Trabalho: automação e aplicativos</h3>
+  <ul>
+    <li>Desenho de fluxos no Power Automate: laços, filtragem de matrizes e padrões de deduplicação, como em um fluxo de e-mails de lembrete consolidados por pessoa e por prazo.</li>
+    <li>Aplicativos no Power Apps sobre SharePoint, simplificando lógica para evitar fluxos desnecessários.</li>
+    <li>Scripts do Office (Office Scripts) para pós-processar dados exportados no Excel Online.</li>
+  </ul>
+
+  <h3>Estudo e TCC</h3>
+  <ul>
+    <li>Claude Code no desenvolvimento do sistema de criptoativos (projeto 3).</li>
+    <li>Escrita da monografia em LaTeX com apoio de IA e restrição às fontes da proposta.</li>
+  </ul>
+
+  <h3>Carreira</h3>
+  <ul>
+    <li>Adaptação de currículo e de páginas de portfólio para vagas específicas, com pesquisa dos requisitos do programa e revisão do que é coerente com a minha experiência real.</li>
+  </ul>
+
+  <h3>Empreendedorismo</h3>
+  <ul>
+    <li>Marca, landing page, textos, roteiro de pitch e plano de negócios da Konecta (projeto 4).</li>
+  </ul>
+
+  <h3>Como trabalho com IA</h3>
+  <ul>
+    <li><strong>Diagnóstico antes da correção:</strong> leio a mensagem de erro e entendo a causa antes de aceitar uma solução.</li>
+    <li><strong>Decisão explícita:</strong> discuto alternativas e escolho antes de implementar.</li>
+    <li><strong>Fontes controladas:</strong> restrinjo o modelo às fontes que informo quando o trabalho exige rigor.</li>
+    <li><strong>MVP primeiro:</strong> valido ferramentas e licenciamento com um protótipo mínimo antes de ampliar.</li>
+  </ul>
+</section>
+
+<!-- ============ FERRAMENTAS ============ -->
+<section id="ferramentas" aria-labelledby="h-tools">
+  <h2 id="h-tools">Ferramentas e onde foram usadas</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th scope="col">Ferramenta</th><th scope="col">Categoria</th><th scope="col">Onde usei</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Copilot Studio</th><td>Agentes de IA</td><td>Projetos 1 e 2</td></tr>
+      <tr><th scope="row">Claude e Claude Code</th><td>LLM e desenvolvimento assistido por IA</td><td>Projeto 3 e uso diário</td></tr>
+      <tr><th scope="row">ChatGPT, Gemini, Microsoft Copilot</th><td>LLMs</td><td>Uso diário</td></tr>
+      <tr><th scope="row">Power Automate</th><td>Automação (RPA)</td><td>Projetos 1 e 2 e rotinas de trabalho</td></tr>
+      <tr><th scope="row">Power Apps e SharePoint</th><td>Aplicativos e base de dados</td><td>Projeto 1 e sistemas de trabalho</td></tr>
+      <tr><th scope="row">Power BI (Power Query, DAX)</th><td>Dados e visualização</td><td>Relatórios de trabalho</td></tr>
+      <tr><th scope="row">Office Scripts</th><td>Automação no Excel Online</td><td>Pós-processamento de dados</td></tr>
+      <tr><th scope="row">CCXT</th><td>API de exchanges</td><td>Projeto 3</td></tr>
+      <tr><th scope="row">Google Colab</th><td>Análise com Python</td><td>Trabalho</td></tr>
+      <tr><th scope="row">LaTeX</th><td>Escrita acadêmica</td><td>Monografia (projeto 3)</td></tr>
+      <tr><th scope="row">HTML, CSS, JS e GitHub Pages</th><td>Web</td><td>Landing page da Konecta (projeto 4)</td></tr>
+      <tr><th scope="row">Make.com</th><td>Automação low-code</td><td>Exploração (projeto 4)</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section id="contato" aria-labelledby="h-contato" style="border-bottom:0">
+  <h2 id="h-contato">Contato</h2>
+  <p>LinkedIn: <a href="https://linkedin.com/in/marciopaiva2004" rel="me noopener">linkedin.com/in/marciopaiva2004</a></p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Página pública mantida por Márcio José Domingues Paiva. Conteúdo estático, sem JavaScript, escrito para leitura por pessoas e por sistemas de IA. Resumo em texto: <a href="llms.txt">llms.txt</a> e <a href="llms-full.txt">llms-full.txt</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

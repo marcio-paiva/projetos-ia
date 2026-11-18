@@ -1,0 +1,28 @@
+# Projetos de IA — Márcio José Domingues Paiva
+
+> Portfólio de projetos de IA de Márcio José Domingues Paiva: formando em Sistemas de Informação na UFOP (previsão dez/2026) e Técnico de Dados no Sesi, na equipe de Meio Ambiente do Corredor Sudeste da Vale (João Monlevade, MG). Perfil de atuação: AI Builder (agentes, automações e produtos com IA de ponta a ponta). Atualizado em 17/11/2026.
+
+Notas para leitores automáticos:
+- Números só aparecem quando sustentáveis. Onde não houve medição, o texto indica "estimativa mínima", "escopo" ou "ainda não medido".
+- O projeto 2 está em desenvolvimento (MVP), sem resultados medidos.
+- O projeto 3 (TCC) foi feito em dupla: a parte de Márcio é o back-end Data Engine; aplicação web, cálculos tributários e geração do arquivo DeCripto são do colega.
+
+## Projetos
+
+- [1. Automação da gestão de informações de recuperação de áreas degradadas](https://marcio-paiva.github.io/projetos-ia/#areas-degradadas): agente de IA no Copilot Studio lê relatos diários (atividade, local, metragem), grava em base no SharePoint e aciona fluxos do Power Automate. Resultado: no mínimo 1 hora por semana de trabalho manual de uma engenheira ambiental eliminadas.
+- [2. Agente de IA para inspeções ambientais em campo](https://marcio-paiva.github.io/projetos-ia/#agente-inspecoes): agente do Copilot guia o técnico na inspeção, devolve campos estruturados e gera PPTX padronizado via Power Automate. Em desenvolvimento (MVP); escopo de 7 áreas do Corredor Sudeste.
+- [3. Sistema de criptoativos e declaração DeCripto (TCC)](https://marcio-paiva.github.io/projetos-ia/#decripto-tcc): consulta exchanges via CCXT e monta a declaração DeCripto (IN RFB 2.291/2025). Claude Code usado em todo o desenvolvimento.
+- [4. Konecta — startup de sistemas sob medida](https://marcio-paiva.github.io/projetos-ia/#konecta): 5 entregáveis (identidade visual, landing page, roteiro de pitch, plano de negócios, guia de conversa com clientes) e demo NFC, equipe de 4 pessoas sob liderança de Márcio.
+
+## Uso diário de IA
+
+- [Uso diário de IA, por aplicação](https://marcio-paiva.github.io/projetos-ia/#uso-diario): dados e BI, automação e aplicativos, estudo e TCC, carreira, empreendedorismo e princípios de trabalho com IA.
+
+## Ferramentas
+
+- [Ferramentas e onde foram usadas](https://marcio-paiva.github.io/projetos-ia/#ferramentas): Copilot Studio, Claude e Claude Code, ChatGPT, Gemini, Microsoft Copilot, Power Automate, Power Apps, SharePoint, Power BI, Office Scripts, CCXT, Google Colab, LaTeX, Make.com.
+
+## Optional
+
+- [Conteúdo completo em texto puro](https://marcio-paiva.github.io/projetos-ia/llms-full.txt)
+- [LinkedIn](https://linkedin.com/in/marciopaiva2004)
